@@ -2,6 +2,8 @@
 
 short description
 
+see [details.md](details.md)
+
 ## install
 
 ```
