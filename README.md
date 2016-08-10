@@ -2,8 +2,6 @@
 
 turns a 3D array of boolean values, representing [boxels](), into an order of DNA.
 
-see [details.md](details.md)
-
 ## install
 
 ```
