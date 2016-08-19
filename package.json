@@ -1,4 +1,6 @@
 {
+  "name": "usage-and-quit",
+  "version": "0.0.1",
   "author": "elsehow",
   "license": "BSD-3-Clause",
   "main": "src/index.js",

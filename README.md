@@ -1,19 +1,29 @@
-# boxels-to-dna-order
+# usage-and-quit
 
-description
+read a usage file to process.stdout, and quit with some exit code
 
-see [details.md](details.md).
+## example
+
+```javascript
+var join = require('path').join
+var pathTo = f => join(__dirname, f)
+var usageFile = pathTo('usage.txt')
+var usage = require('..')
+usage(usageFile)
+```
 
 ## install
 
 ```
-npm i
+npm install usage-and-quit
 ```
 
-## use
+## api
+### usage(pathToUsageFile, [exitCode])
 
-```javascript
-```
+will print `pathToUsageFile` to stdout.
+
+`exitCode` is 1 by default.
 
 ## license
 
